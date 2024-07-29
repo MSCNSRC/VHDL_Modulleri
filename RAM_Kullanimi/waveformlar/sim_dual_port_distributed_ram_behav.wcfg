@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim_dual_port_distributed_ram_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="sim_dual_port_distributed_ram" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="432.001 ns"></ZoomEndTime>
+      <Cursor1Time time="280.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="112"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/sim_dual_port_distributed_ram/RAM/i_clk_bit" type="logic">
+      <obj_property name="ElementShortName">i_clk_bit</obj_property>
+      <obj_property name="ObjectShortName">i_clk_bit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dual_port_distributed_ram/RAM/i_we_bit" type="logic">
+      <obj_property name="ElementShortName">i_we_bit</obj_property>
+      <obj_property name="ObjectShortName">i_we_bit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dual_port_distributed_ram/RAM/i_yazma_adresi_ig" type="other">
+      <obj_property name="ElementShortName">i_yazma_adresi_ig</obj_property>
+      <obj_property name="ObjectShortName">i_yazma_adresi_ig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dual_port_distributed_ram/RAM/i_okuma_adresi_ig" type="other">
+      <obj_property name="ElementShortName">i_okuma_adresi_ig</obj_property>
+      <obj_property name="ObjectShortName">i_okuma_adresi_ig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dual_port_distributed_ram/RAM/i_yazilacak_veri_vg" type="array">
+      <obj_property name="ElementShortName">i_yazilacak_veri_vg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_yazilacak_veri_vg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dual_port_distributed_ram/RAM/o_yazilan_adres_vg" type="array">
+      <obj_property name="ElementShortName">o_yazilan_adres_vg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_yazilan_adres_vg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dual_port_distributed_ram/RAM/o_okunan_adres_vg" type="array">
+      <obj_property name="ElementShortName">o_okunan_adres_vg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_okunan_adres_vg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dual_port_distributed_ram/RAM/ram_at" type="array">
+      <obj_property name="ElementShortName">ram_at[31:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_at[31:0][7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

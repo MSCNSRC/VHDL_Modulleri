@@ -2,3 +2,5 @@
 *.hw
 *.runs
 *.xpr
+*.ip_user_files
+*.sim
